@@ -37,7 +37,9 @@ public class navigation extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
                     case R.id.albums:
-                        Toast.makeText(navigation.this, "Albums", Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(navigation.this, "Albums", Toast.LENGTH_SHORT).show();
+                        intent = new Intent(navigation.this, albums.class);
+                        startActivity(intent);
                         break;
                     case R.id.playlist:
                         Toast.makeText(navigation.this, "Playlist", Toast.LENGTH_SHORT).show();

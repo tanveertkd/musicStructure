@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".navigation" />
-        <activity android:name=".now_playing"></activity>
+        <activity android:name=".now_playing" />
+        <activity android:name=".albums"></activity>
     </application>
 
 </manifest>
