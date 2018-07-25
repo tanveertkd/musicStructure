@@ -76,16 +76,13 @@ public class navigation extends AppCompatActivity {
         ListView listViewItems = (ListView) findViewById(R.id.song_list);
         listViewItems.setAdapter(adapter);
 
-
-        //THIS IS NOT WOKING
-//        nowPlaying = (TextView) findViewById(R.id.song_name);
-//        nowPlaying.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent nowPlaying = new Intent(navigation.this, now_playing.class);
-//                startActivity(nowPlaying);
-//            }
-//        });
+        listViewItems.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Intent play = new Intent(getApplicationContext(), now_playing.class);
+                startActivity(play);
+            }
+        });
     }
 
     public void setToolbar(){
