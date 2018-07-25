@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Coldplayer</string>
+    <string name="my_playlist">My Playlist</string>
+    <string name="albums">Albums</string>
+    <string name="favourites">Favourites</string>
+    <string name="news">News</string>
+    <string name="most_played">Most Played</string>
+    <string name="settings">Settings</string>
+    <string name="stream">Stream</string>
+    <string name="dev_coldplayer_io">dev@coldplayer.io</string>
+</resources>
