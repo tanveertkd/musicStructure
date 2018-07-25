@@ -103,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(View view) {
                         Intent home = new Intent(MainActivity.this, navigation.class);
                         startActivity(home);
+                        finish();
                     }
                 });
             } else {

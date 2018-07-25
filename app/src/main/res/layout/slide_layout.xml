@@ -20,6 +20,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="176dp"
         android:text="HEADER"
+        android:textColor="@color/necessary"
         android:textSize="20sp" />
 
     <TextView
@@ -30,6 +31,7 @@
         android:layout_marginBottom="66dp"
         android:padding="30dp"
         android:text="DESCRIPTION"
+        android:textColor="@color/necessary"
         android:textAlignment="center"
         android:textSize="15sp" />
 </RelativeLayout>

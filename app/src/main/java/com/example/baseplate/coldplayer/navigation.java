@@ -40,18 +40,23 @@ public class navigation extends AppCompatActivity {
                         Toast.makeText(navigation.this, "Albums", Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.playlist:
+                        Toast.makeText(navigation.this, "Playlist", Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.favourites:
+                        Toast.makeText(navigation.this, "Favourites", Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.now_playing:
                         intent = new Intent(navigation.this, now_playing.class);
                         startActivity(intent);
                         break;
                     case R.id.news:
+                        Toast.makeText(navigation.this, "News", Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.stream:
+                        Toast.makeText(navigation.this, "Stream", Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.settings:
+                        Toast.makeText(navigation.this, "Settings", Toast.LENGTH_SHORT).show();
                         break;
 
                 }

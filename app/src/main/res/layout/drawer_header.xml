@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="25dp"
-    android:background="@color/dotIndicator"
+    android:background="#3f51b5"
     style="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView
