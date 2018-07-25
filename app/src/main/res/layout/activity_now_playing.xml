@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".now_playing">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        app:srcCompat="@drawable/ghoststoriesmain"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/nowBackBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/ic_chevron_left_solid" />
+
+    <ImageView
+        android:id="@+id/nowMenuBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/nowBackBtn"
+        android:layout_marginEnd="13dp"
+        app:srcCompat="@drawable/ic_ellipsis_h_solid" />
+
+    <TextView
+        android:id="@+id/now_playing_song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="149dp"
+        android:text="@string/ghost_stories"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/now_playing_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="117dp"
+        android:text="@string/ghost_stories_coldplay" />
+
+    <ImageView
+        android:id="@+id/pauseBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="68dp"
+        app:srcCompat="@drawable/ic_pause_solid" />
+
+    <ImageView
+        android:id="@+id/skip_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/pauseBtn"
+        android:layout_marginEnd="142dp"
+        app:srcCompat="@drawable/ic_angle_double_right_solid" />
+
+    <ImageView
+        android:id="@+id/repeat"
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pauseBtn"
+        android:layout_toEndOf="@+id/now_playing_desc"
+        app:srcCompat="@drawable/ic_redo_alt_solid" />
+
+    <ImageView
+        android:id="@+id/skip_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/pauseBtn"
+        android:layout_marginStart="139dp"
+        app:srcCompat="@drawable/ic_angle_double_left_solid" />
+
+    <ImageView
+        android:id="@+id/shuffle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pauseBtn"
+        android:layout_toStartOf="@+id/now_playing_desc"
+        app:srcCompat="@drawable/ic_random_solid" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:outlineAmbientShadowColor="@color/colorAccent"/>
+</RelativeLayout>

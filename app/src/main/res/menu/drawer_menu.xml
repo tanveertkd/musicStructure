@@ -18,9 +18,9 @@
             android:icon="@drawable/ic_gratipay_brands">
         </item>
         <item
-            android:id="@+id/mostPlayed"
-            android:title="@string/most_played"
-            android:icon="@drawable/ic_list_ul_solid">
+            android:id="@+id/now_playing"
+            android:title="@string/now_playing"
+            android:icon="@drawable/ic_play_solid">
         </item>
         <item
             android:id="@+id/news"
