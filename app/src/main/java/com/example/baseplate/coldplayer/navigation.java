@@ -67,17 +67,17 @@ public class navigation extends AppCompatActivity {
         });
         //Creates the song list
         ArrayList<song> songs = new ArrayList<song>();
-        songs.add(new song("01 Always In My Head", "Coldplay", R.drawable.ghoststories));
-        songs.add(new song("02 Magic", "Coldplay", R.drawable.ghoststories));
-        songs.add(new song("03 Ink", "Coldplay", R.drawable.ghoststories));
-        songs.add(new song("04 True Love", "Coldplay", R.drawable.ghoststories));
-        songs.add(new song("05 Midnight", "Coldplay", R.drawable.ghoststories));
-        songs.add(new song("06 Another's Arms", "Coldplay", R.drawable.ghoststories));
-        songs.add(new song("08 A Sky Full Of Stars", "Coldplay", R.drawable.ghoststories));
-        songs.add(new song("09 O", "Coldplay", R.drawable.ghoststories));
-        songs.add(new song("10 All Your Friends", "Coldplay", R.drawable.ghoststories));
-        songs.add(new song("11 Ghost Story", "Coldplay", R.drawable.ghoststories));
-        songs.add(new song("12 O (Part 2 - Reprise)", "Coldplay", R.drawable.ghoststories));
+        songs.add(new song("01 Always In My Head", "Coldplay", R.drawable.ghost_stories_large));
+        songs.add(new song("02 Magic", "Coldplay", R.drawable.ghost_stories_large));
+        songs.add(new song("03 Ink", "Coldplay", R.drawable.ghost_stories_large));
+        songs.add(new song("04 True Love", "Coldplay", R.drawable.ghost_stories_large));
+        songs.add(new song("05 Midnight", "Coldplay", R.drawable.ghost_stories_large));
+        songs.add(new song("06 Another's Arms", "Coldplay", R.drawable.ghost_stories_large));
+        songs.add(new song("08 A Sky Full Of Stars", "Coldplay", R.drawable.ghost_stories_large));
+        songs.add(new song("09 O", "Coldplay", R.drawable.ghost_stories_large));
+        songs.add(new song("10 All Your Friends", "Coldplay", R.drawable.ghost_stories_large));
+        songs.add(new song("11 Ghost Story", "Coldplay", R.drawable.ghost_stories_large));
+        songs.add(new song("12 O (Part 2 - Reprise)", "Coldplay", R.drawable.ghost_stories_large));
 
         songAdapter adapter = new songAdapter(this, songs);
         ListView listViewItems = (ListView) findViewById(R.id.song_list);
